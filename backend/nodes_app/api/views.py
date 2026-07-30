@@ -5,9 +5,6 @@ from django.shortcuts import get_object_or_404
 from .serializers import NodeSerializer
 from nodes_app.models import Node
 
-from rest_framework.views import APIView
-from rest_framework import mixins
-from rest_framework import generics
 from rest_framework import viewsets
 
 class NodeViewSet(viewsets.ModelViewSet):

@@ -1,4 +1,4 @@
-from rest_framework import serializers, viewsets
+from rest_framework import serializers
 from nodes_app.models import Node
 
 class NodeSerializer(serializers.ModelSerializer):
