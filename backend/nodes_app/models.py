@@ -7,3 +7,6 @@ class Node(models.Model):
     content = models.TextField(blank=True)
     marked = models.BooleanField(default=False)
     trash = models.BooleanField(default=False)
+
+    def __str__(self):
+        return self.title
